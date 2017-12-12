@@ -8,4 +8,7 @@
 <div class="single-thumbnail" style="background-image: url(<?= $thumbnail_url ?>);
                                      background-size: cover;
                                      background-position: center"></div>
-<p><?= $content ?></p>
+<p><?= apply_filters('the_content', $content) ?></p>
+
+<!-- apply_filters obligatoire pour appliquer des shortcodes sur mes variables (content, title...) -->
+<!-- Sinon faire : the_title() ou the_content() directement -->

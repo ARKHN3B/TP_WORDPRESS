@@ -66,6 +66,7 @@
         <?php
 
         if ( if_shortcode_exists('popeurmoa') ){
+
             $pattern = get_shortcode_regex();
 //            vard($pattern);
             preg_match('/'.$pattern.'/s', $post->post_content, $matches);

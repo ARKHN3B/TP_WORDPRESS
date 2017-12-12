@@ -10,5 +10,7 @@
                                      background-position: center"></div>
 <p><?= apply_filters('the_content', $content) ?></p>
 
-<!-- apply_filters obligatoire pour appliquer des shortcodes sur mes variables (content, title...) -->
-<!-- Sinon faire : the_title() ou the_content() directement -->
+<!-- apply_filters obligatoire pour appliquer des shortcodes sur mes variables (content, title...)
+        Sinon faire : the_title() ou the_content() directement
+        TOUJOURS METTRE APPLY_FILTERS() POUR LA COMPATIBILITÉ DES PLUGINS
+  -->

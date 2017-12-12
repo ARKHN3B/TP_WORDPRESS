@@ -1,0 +1,33 @@
+.popup-overlay {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.68);
+    position: fixed;
+    z-index: 9999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
+    width: 50%;
+}
+
+.popup-content {
+    height: 35%;
+    overflow-y: auto;
+}
+
+.close-popup {
+    position: relative;
+    right: -48%;
+    top: 1%;
+    cursor: pointer;
+}

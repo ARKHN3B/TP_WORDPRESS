@@ -69,8 +69,6 @@
                 $title = get_the_title();
                 $content = get_the_content();
                 $thumbnail_url = get_the_post_thumbnail_url(NULL, 'full');
-
-                apply_filters('the_content', $content);
             }
         ?>
 
@@ -85,7 +83,7 @@
                         background-size: cover;
                         background-position: center;">
             </div>
-            <div style="text-align: justify"><?= $content ?></div>
+            <div style="text-align: justify"><?= apply_filters('the_content', $content); ?></div>
         </div>
 
         <?= $rightSidebar ?>

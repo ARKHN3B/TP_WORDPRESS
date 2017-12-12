@@ -29,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wtpress/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
@@ -40,6 +40,26 @@
                 <element signature="e#566#571#0#PHP" expanded="true" />
                 <element signature="e#1821#1826#0#PHP" expanded="true" />
                 <element signature="e#2361#2585#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-sidebars.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/wtpress/template-sidebars.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="85" column="88" lean-forward="false" selection-start-line="85" selection-start-column="88" selection-end-line="85" selection-end-column="88" />
+              <folding>
+                <element signature="e#0#5#0#PHP" expanded="true" />
+                <element signature="e#487#492#0#PHP" expanded="true" />
+                <element signature="n#obuffer#0;n#!!top" expanded="true" />
+                <element signature="e#2333#2336#0#PHP" expanded="true" />
+                <element signature="e#2381#2384#0#PHP" expanded="true" />
+                <element signature="e#2441#2444#0#PHP" expanded="true" />
+                <element signature="e#2506#2509#0#PHP" expanded="true" />
+                <element signature="e#2849#2852#0#PHP" expanded="true" />
+                <marker date="1513086374000" expanded="true" signature="985:999" ph="..." />
               </folding>
             </state>
           </provider>
@@ -70,8 +90,8 @@
         <option value="$PROJECT_DIR$/themes/wtpress/color_settings.php" />
         <option value="$PROJECT_DIR$/themes/wtpress/functions.php" />
         <option value="$PROJECT_DIR$/themes/wtpress/header.php" />
-        <option value="$PROJECT_DIR$/themes/wtpress/template-sidebars.php" />
         <option value="$PROJECT_DIR$/themes/wtpress/template-parts/article.php" />
+        <option value="$PROJECT_DIR$/themes/wtpress/template-sidebars.php" />
       </list>
     </option>
   </component>
@@ -194,12 +214,12 @@
       <workItem from="1512642142486" duration="1347000" />
       <workItem from="1512900251017" duration="11479000" />
       <workItem from="1512979444029" duration="9332000" />
-      <workItem from="1513085585477" duration="691000" />
+      <workItem from="1513085585477" duration="760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22849000" />
+    <option name="totallyTimeSpent" value="22918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -575,40 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wtpress/template-sidebars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="n#obuffer#0;n#!!top" expanded="true" />
-            <element signature="e#2390#2393#0#PHP" expanded="true" />
-            <element signature="e#2424#2456#0#HTML" expanded="true" />
-            <element signature="e#2438#2441#0#PHP" expanded="true" />
-            <element signature="e#2474#2497#0#HTML" expanded="true" />
-            <element signature="e#2498#2501#0#PHP" expanded="true" />
-            <element signature="e#2534#2763#0#HTML" expanded="true" />
-            <element signature="e#2563#2566#0#PHP" expanded="true" />
-            <element signature="e#2829#2832#0#PHP" expanded="true" />
-            <element signature="e#2875#2878#0#PHP" expanded="true" />
-            <marker date="1513086214000" expanded="true" signature="985:999" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wtpress/template-parts/article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#139#142#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#378#381#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/wtpress/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -619,6 +605,36 @@
             <element signature="e#566#571#0#PHP" expanded="true" />
             <element signature="e#1821#1826#0#PHP" expanded="true" />
             <element signature="e#2361#2585#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wtpress/template-parts/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#139#142#0#PHP" expanded="true" />
+            <element signature="e#378#381#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wtpress/template-sidebars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="85" column="88" lean-forward="false" selection-start-line="85" selection-start-column="88" selection-end-line="85" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#487#492#0#PHP" expanded="true" />
+            <element signature="n#obuffer#0;n#!!top" expanded="true" />
+            <element signature="e#2333#2336#0#PHP" expanded="true" />
+            <element signature="e#2381#2384#0#PHP" expanded="true" />
+            <element signature="e#2441#2444#0#PHP" expanded="true" />
+            <element signature="e#2506#2509#0#PHP" expanded="true" />
+            <element signature="e#2849#2852#0#PHP" expanded="true" />
+            <marker date="1513086374000" expanded="true" signature="985:999" ph="..." />
           </folding>
         </state>
       </provider>

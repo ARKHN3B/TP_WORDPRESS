@@ -11,19 +11,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/wtpress/functions.php">
+      <file leaf-file-name="popup.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/popeurmoa/popup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="198" column="13" lean-forward="false" selection-start-line="198" selection-start-column="13" selection-end-line="198" selection-end-column="13" />
+            <state relative-caret-position="141">
+              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
-                <element signature="n#wtpress_scripts#0;n#!!top" expanded="true" />
-                <element signature="n#wtpress_admin_scripts#0;n#!!top" expanded="true" />
-                <element signature="n#vard#0;n#!!top" expanded="true" />
-                <element signature="n#if_shortcode_exists#0;n#!!top" expanded="true" />
-                <element signature="n#add_options_wtpress#0;n#!!top" expanded="true" />
-                <element signature="e#5438#5443#0#PHP" expanded="true" />
-                <element signature="e#5665#5668#0#PHP" expanded="true" />
+                <element signature="e#6#109#0#PHP" expanded="true" />
+                <element signature="n#shortcode_post_name#0;n#!!top" expanded="true" />
+                <element signature="n#display_post_name#0;n#!!block;n#shortcode_post_name#0;n#!!top" expanded="true" />
+                <element signature="e#2252#2255#0#PHP" expanded="true" />
+                <element signature="n#update_shortcode_post_name#0;n#!!top" expanded="true" />
+                <element signature="n#ifNotEmpty#0;n#!!top" expanded="true" />
+                <marker date="1513087349000" expanded="true" signature="1739:1803" ph="..." />
               </folding>
             </state>
           </provider>
@@ -32,34 +32,14 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/wtpress/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="618">
+              <caret line="84" column="11" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="84" selection-end-column="11" />
               <folding>
                 <element signature="e#507#512#0#PHP" expanded="true" />
                 <element signature="e#542#547#0#PHP" expanded="true" />
                 <element signature="e#566#571#0#PHP" expanded="true" />
                 <element signature="e#1821#1826#0#PHP" expanded="true" />
-                <element signature="e#2361#2585#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-sidebars.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/wtpress/template-sidebars.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="85" column="88" lean-forward="false" selection-start-line="85" selection-start-column="88" selection-end-line="85" selection-end-column="88" />
-              <folding>
-                <element signature="e#0#5#0#PHP" expanded="true" />
-                <element signature="e#487#492#0#PHP" expanded="true" />
-                <element signature="n#obuffer#0;n#!!top" expanded="true" />
-                <element signature="e#2333#2336#0#PHP" expanded="true" />
-                <element signature="e#2381#2384#0#PHP" expanded="true" />
-                <element signature="e#2441#2444#0#PHP" expanded="true" />
-                <element signature="e#2506#2509#0#PHP" expanded="true" />
-                <element signature="e#2849#2852#0#PHP" expanded="true" />
-                <marker date="1513086374000" expanded="true" signature="985:999" ph="..." />
+                <element signature="e#2043#2093#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,15 +63,15 @@
         <option value="$PROJECT_DIR$/themes/wtpress/single.php" />
         <option value="$PROJECT_DIR$/plugins/Slidornet/slider.php" />
         <option value="$PROJECT_DIR$/plugins/popeurmoa/popup.js" />
-        <option value="$PROJECT_DIR$/plugins/popeurmoa/popup.php" />
         <option value="$PROJECT_DIR$/plugins/popeurmoa/popup.css" />
         <option value="$PROJECT_DIR$/themes/wtpress/js/vardump.js" />
         <option value="$PROJECT_DIR$/themes/wtpress/admin_menu.php" />
         <option value="$PROJECT_DIR$/themes/wtpress/color_settings.php" />
         <option value="$PROJECT_DIR$/themes/wtpress/functions.php" />
-        <option value="$PROJECT_DIR$/themes/wtpress/header.php" />
         <option value="$PROJECT_DIR$/themes/wtpress/template-parts/article.php" />
         <option value="$PROJECT_DIR$/themes/wtpress/template-sidebars.php" />
+        <option value="$PROJECT_DIR$/themes/wtpress/header.php" />
+        <option value="$PROJECT_DIR$/plugins/popeurmoa/popup.php" />
       </list>
     </option>
   </component>
@@ -146,6 +126,19 @@
               <item name="wp-content" type="b2602c69:ProjectViewProjectNode" />
               <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wp-content" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wp-content" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="popeurmoa" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="wp-content" type="b2602c69:ProjectViewProjectNode" />
@@ -214,12 +207,12 @@
       <workItem from="1512642142486" duration="1347000" />
       <workItem from="1512900251017" duration="11479000" />
       <workItem from="1512979444029" duration="9332000" />
-      <workItem from="1513085585477" duration="760000" />
+      <workItem from="1513085585477" duration="1378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22918000" />
+    <option name="totallyTimeSpent" value="23536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -229,6 +222,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -241,7 +235,6 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="1240" height="700" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -308,7 +301,7 @@
             <element signature="e#542#547#0#PHP" expanded="true" />
             <element signature="e#566#571#0#PHP" expanded="true" />
             <element signature="e#1821#1826#0#PHP" expanded="true" />
-            <element signature="e#2361#2585#0#PHP" expanded="true" />
+            <element signature="e#2043#2093#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -333,6 +326,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#109#0#PHP" expanded="true" />
+            <element signature="n#shortcode_post_name#0;n#!!top" expanded="true" />
+            <element signature="n#display_post_name#0;n#!!block;n#shortcode_post_name#0;n#!!top" expanded="true" />
+            <element signature="e#2252#2255#0#PHP" expanded="true" />
+            <element signature="n#update_shortcode_post_name#0;n#!!top" expanded="true" />
+            <element signature="n#ifNotEmpty#0;n#!!top" expanded="true" />
+            <marker date="1513087349000" expanded="true" signature="1739:1803" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -359,7 +361,7 @@
             <element signature="e#542#547#0#PHP" expanded="true" />
             <element signature="e#566#571#0#PHP" expanded="true" />
             <element signature="e#1821#1826#0#PHP" expanded="true" />
-            <element signature="e#2361#2585#0#PHP" expanded="true" />
+            <element signature="e#2043#2093#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -438,13 +440,6 @@
             <element signature="e#507#526#0#HTML" expanded="false" />
             <element signature="e#567#572#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/popeurmoa/popup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="61" column="89" lean-forward="false" selection-start-line="61" selection-start-column="89" selection-end-line="61" selection-end-column="89" />
         </state>
       </provider>
     </entry>
@@ -579,6 +574,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wtpress/template-parts/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#139#142#0#PHP" expanded="true" />
+            <element signature="e#378#381#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/wtpress/template-sidebars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="85" column="88" lean-forward="false" selection-start-line="85" selection-start-column="88" selection-end-line="85" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="e#487#492#0#PHP" expanded="true" />
+            <element signature="n#obuffer#0;n#!!top" expanded="true" />
+            <element signature="e#2333#2336#0#PHP" expanded="true" />
+            <element signature="e#2381#2384#0#PHP" expanded="true" />
+            <element signature="e#2441#2444#0#PHP" expanded="true" />
+            <element signature="e#2506#2509#0#PHP" expanded="true" />
+            <element signature="e#2849#2852#0#PHP" expanded="true" />
+            <marker date="1513086374000" expanded="true" signature="985:999" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/wtpress/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
@@ -597,44 +622,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/wtpress/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="618">
+          <caret line="84" column="11" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="84" selection-end-column="11" />
           <folding>
             <element signature="e#507#512#0#PHP" expanded="true" />
             <element signature="e#542#547#0#PHP" expanded="true" />
             <element signature="e#566#571#0#PHP" expanded="true" />
             <element signature="e#1821#1826#0#PHP" expanded="true" />
-            <element signature="e#2361#2585#0#PHP" expanded="true" />
+            <element signature="e#2043#2093#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wtpress/template-parts/article.php">
+    <entry file="file://$PROJECT_DIR$/plugins/popeurmoa/popup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="141">
+          <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#139#142#0#PHP" expanded="true" />
-            <element signature="e#378#381#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/wtpress/template-sidebars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="85" column="88" lean-forward="false" selection-start-line="85" selection-start-column="88" selection-end-line="85" selection-end-column="88" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-            <element signature="e#487#492#0#PHP" expanded="true" />
-            <element signature="n#obuffer#0;n#!!top" expanded="true" />
-            <element signature="e#2333#2336#0#PHP" expanded="true" />
-            <element signature="e#2381#2384#0#PHP" expanded="true" />
-            <element signature="e#2441#2444#0#PHP" expanded="true" />
-            <element signature="e#2506#2509#0#PHP" expanded="true" />
-            <element signature="e#2849#2852#0#PHP" expanded="true" />
-            <marker date="1513086374000" expanded="true" signature="985:999" ph="..." />
+            <element signature="e#6#109#0#PHP" expanded="true" />
+            <element signature="n#shortcode_post_name#0;n#!!top" expanded="true" />
+            <element signature="n#display_post_name#0;n#!!block;n#shortcode_post_name#0;n#!!top" expanded="true" />
+            <element signature="e#2252#2255#0#PHP" expanded="true" />
+            <element signature="n#update_shortcode_post_name#0;n#!!top" expanded="true" />
+            <element signature="n#ifNotEmpty#0;n#!!top" expanded="true" />
+            <marker date="1513087349000" expanded="true" signature="1739:1803" ph="..." />
           </folding>
         </state>
       </provider>

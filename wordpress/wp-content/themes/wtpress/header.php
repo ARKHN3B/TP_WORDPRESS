@@ -65,22 +65,22 @@
 
         <?php
 
-        if ( if_shortcode_exists('popeurmoa') ){
-
-            $pattern = get_shortcode_regex();
-//            vard($pattern);
-            preg_match('/'.$pattern.'/s', $post->post_content, $matches);
-            if (is_array($matches) && $matches[2] == 'popeurmoa') {
-//                vard($matches);
-                function string_replace_scn($matches){
-                    $shortcode_name = str_replace(' name=', '', $matches[3]);
-
-                    global $shortname;
-                    $shortname = $shortcode_name;
-                }
-                string_replace_scn($matches);
-
-                echo do_shortcode('');
-            }
-        }
+//        if ( if_shortcode_exists('popeurmoa') ){
+//
+//            $pattern = get_shortcode_regex();
+////            vard($pattern);
+//            preg_match('/'.$pattern.'/s', $post->post_content, $matches);
+//            if (is_array($matches) && $matches[2] == 'popeurmoa') {
+////                vard($matches);
+//                function string_replace_scn($matches){
+//                    $shortcode_name = str_replace(' name=', '', $matches[3]);
+//
+//                    global $shortname;
+//                    $shortname = $shortcode_name;
+//                }
+//                string_replace_scn($matches);
+//
+//                echo do_shortcode('');
+//            }
+//        }
     ?>

@@ -33,8 +33,8 @@ add_action('init', 'create_popup');
 
 
 
-function display_popup(){
-    global $shortname;
+function display_popup($atts){
+//    global $shortname;
 
     $popup = new WP_Query(array(
         'post_type' => 'popeurmoa'
@@ -49,7 +49,7 @@ function display_popup(){
 
             $popup->the_post();
 
-            if (get_post_meta($popup->post->ID, 'postname')[0] == $shortname){
+            if (get_post_meta($popup->post->ID, 'postname')[0] == $atts['name'] /*$shortname*/){
 
                 $title = get_the_title();
                 $content = get_the_content();
